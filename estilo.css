@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e9e7da;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.menu{
+    display: flex;
+    line-height: 100px;
+}
+.one, .two, .three{
+    width: 100px;
+    height: 100px;
+    flex-basis: 33%;
+}
+
+a{
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+/* FIN DEL MENU DE LA PAG */
+.primero{
+    background-color: #D8D6CC;
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 300px;
+    height: 70px;
+}
+
+.subprimero{
+    font-size: 25px;
+    color: #232931;
+}
+
+i{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+
+.contimg{
+    display: grid; 
+    place-items: center; 
+}
+
+.imagenp{
+    height: 105vh; 
+    position: relative;
+    top: -283px;
+}
+/* Primer avanze, puse la img y un cuadrito */
