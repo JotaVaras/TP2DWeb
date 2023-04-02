@@ -7,7 +7,6 @@
 body{
     background-color: #e9e7da;
     height: 100vh;
-    overflow: hidden;
 }
 
 .menu{
@@ -15,8 +14,9 @@ body{
     line-height: 100px;
 }
 .one, .two, .three{
-    width: 100px;
-    height: 100px;
+    background-color: red;
+    width: 100%;
+    height: 80px;
     flex-basis: 33%;
 }
 
@@ -27,36 +27,152 @@ a{
     color: black;
 }
 /* FIN DEL MENU DE LA PAG */
+.contimg{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenp{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+}
+
 .primero{
     background-color: #D8D6CC;
+    width: 350px;
+    height: 90px;
     display: flex; 
     justify-content: left; 
     align-items: center; 
-    margin-top: 80px;
-    margin-left: 350px;
-    width: 300px;
-    height: 70px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 320px;
+    margin-top: 40px;
 }
 
 .subprimero{
-    font-size: 25px;
+    font-size: 30px;
     color: #232931;
+    margin-left: 8px;
 }
 
-i{
+.iconone{
     font-size: 25px;
     margin-left: 30px;
 }
 
-
-.contimg{
-    display: grid; 
-    place-items: center; 
+.segundo{
+    background-color: #393e44;
+    width: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    margin-top: 190px;
 }
 
-.imagenp{
-    height: 105vh; 
-    position: relative;
-    top: -283px;
+.subsegundo{
+    color: white;
+    width: 35%;
+    font-size: 12px;
 }
-/* Primer avanze, puse la img y un cuadrito */
+
+.tercero{
+    background-color: #393e44;
+    width: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    margin-left: 683px;
+    margin-top: 190px;
+    opacity: 0.2;
+}
+
+.subtercero{
+    color: #D8D6CC;
+    padding: 0;
+    font-size: 75px;
+    line-height: 48px;
+    letter-spacing: 5px;
+    margin-left: 75px;
+}
+
+.tercerosuperpuesto{
+    width: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    margin-left: 645px;
+    margin-top: 190px;
+
+}
+.superter{
+    color: black;
+    font-size: 30px;
+}
+
+.cuarto{
+    background-color: #393e44;
+    width: 350px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    z-index: -1;
+    margin-left: 750px;
+    margin-top: 340px;
+}
+
+.subcuarto{
+    color: white;
+    font-size: 25px;
+}
+
+.icontwo{
+    color: white;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.abajo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    max-width: 100%;
+}
+
+.izq{
+    margin-left: 230px;
+    margin-right: 180px;
+}
+
+.med{
+    margin-right: 180px;
+}
+
+.izqtex, .medtex, .dertex{
+    font-size: 15px;
+}
+
+.num1, .num2, .iconthree{
+    font-size: 40px;
+}
+
+.num2, .medtex{
+    color: #D8D6CC;
+}
+
+/* Todo terminado, falta arreglar el menu y agregar el cursor a los iconos */
