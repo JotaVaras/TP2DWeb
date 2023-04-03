@@ -5,27 +5,24 @@
 }
 
 body{
-    background-color: #e9e7da;
-    height: 100vh;
+    background-color: #E9E7DA;
 }
 
 .menu{
     display: flex;
-    line-height: 100px;
-}
-.one, .two, .three{
-    background-color: red;
-    width: 100%;
-    height: 80px;
-    flex-basis: 33%;
+    justify-content: space-around;
+    margin: 30px 30px;
 }
 
-a{
-    text-align: center;
-    vertical-align: middle;
+.one, .two, .three{
+    position: relative;
+    z-index: 1;
     text-decoration: none;
     color: black;
-}
+    font-size: 15px;
+
+
+} 
 /* FIN DEL MENU DE LA PAG */
 .contimg{
     display: flex;
@@ -175,4 +172,4 @@ a{
     color: #D8D6CC;
 }
 
-/* Todo terminado, falta arreglar el menu y agregar el cursor a los iconos */
+/* Todo terminado */
